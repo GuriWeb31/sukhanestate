@@ -2,9 +2,12 @@ import React from 'react'
 
 const Wordclass = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <section className='world-class'>
+
+    </section>
+    
+    </>
   )
 }
 
