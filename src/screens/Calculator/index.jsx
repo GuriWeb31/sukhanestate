@@ -17,13 +17,13 @@ const Calculator = () => {
     return (
         <>
             <section className='calculator-page'>
-                <h2 className='lg:text-[42px] sm:text-[20px] text-[#001842] text-center'>
-                    Calculate How Much You'll Save <br /> with Sukhan Estate
+                <h2 className='lg:text-[42px] md:text-[28px] sm:text-[20px] max-sm:text-[24px] text-[#001842] text-center '>
+                    Calculate How Much You'll Save <br className='max-sm:hidden'/> with Sukhan Estate
                 </h2>
                 <div className='bg-[#F0FAFF] py-3 mt-8'>
-                    <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-12 mb-12 '>
+                    <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 xl:mt-12 lg:mt-12 md:mt-12 max-sm:mt-3 sm:mt-3 max-sm:mb-3 sm:mb-3 xl:mb-12 lg:mb-12  md:mb-12'>
                         <div className='grid grid-cols-1 md:grid-cols-6 gap-8'>
-                            <div className='col-span-2'>
+                            <div className='xl:col-span-2 lg:col-span-2 md:col-span-2 max-sm:col-span-1 sm:col-span-1'>
                                 <div className='bg-sky-500 p-6 text-white max-w-md mx-auto '>
                                     <p className='text-xl  mb-2'>Home Purchase Price</p>
                                     <div className='text-4xl font-bold mb-3 mt-4' style={{ fontFamily: "'Libre Baskerville', serif" }}>${price.toLocaleString()}</div>
@@ -45,7 +45,7 @@ const Calculator = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className='col-span-4'>
+                            <div className='xl:col-span-4 lg:col-span-4 md:col-span-4 max-sm:col-span-1 sm:col-span-1'>
                                 <h4 className='letsbreakdown text-[24px] text-[#001842] mb-3'>Let's Break it Down</h4>
                                 <div className='grid grid-cols-1 xl:grid-cols-2 gap-6'>
                                     {/* Down Payment Saving */}

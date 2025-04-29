@@ -6,17 +6,20 @@ const Howitworks = () => {
   return (
     <>
     <section className='how-it-works'>
-        <div className='border-one mt-24'></div>
-    <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-24 mb-24'>
-    <div class="grid grid-cols-1 md:grid-cols-2 xl:gap-16 lg:gap-10">
+        <div className='border-one xl:mt-24 lg:mt-24 md:mt-24 max-sm:mt-10'  ></div>
+     
+    <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 xl:mt-24 xl:mb-24 lg:mt-24 lg:mb-24 md:mt-24 md:mb-24 max-sm:mt-8 max-sm:mb-8 '>
+    <div class="xl:grid lg:grid grid-cols-1 md:grid-cols-2 xl:gap-16 lg:gap-10 md:block">
         <div>
-        <h2 className='lg:text-[42px] sm:text-[20px] text-[#001842]'>How It Works</h2>
-        <p className='text-[#001842] text-[18px]'>Whether it's your first, second, or tenth home, we turn our commissions into your savings—every step of the way.</p>
+        <h2 className='lg:text-[42px] md:text-[28px] sm:text-[20px] max-sm:text-[24px] text-[#001842]'>How It Works</h2>
+        <p className='text-[#001842] xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px]'>Whether it's your first, second, or tenth home, we turn our commissions into your savings—every step of the way.</p>
         <div className='hover:bg-[#001842] hover:text-white transition-all duration-300 button-getstarted flex gap-7.5 bg-[fff] text-[#001842] w-fit p-1 py-1.5 px-3.5 mt-6 border-[#001842] border-1'>
                     <button className=''>Get Started</button>
                     <img src={bluearrow} alt=''/>
+                    
                   </div>
-                  <img src={howimage} alt='' className='w-full mt-15'/>
+
+                  <img src={howimage} alt='' className='w-full xl:mt-15 lg:mt-15 max-sm:mt-8 max-sm:mb-8 sm:mt-8 md:mt-8 lg:mb-0 md:mb-15 '/>
         </div>
         <div>
             <div className=''>
