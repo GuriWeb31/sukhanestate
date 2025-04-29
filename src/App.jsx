@@ -13,6 +13,7 @@ import Wordclass from './screens/Worldclass';
 import Buyingthink from './screens/Buyingthink';
 import FAQ from './screens/FAQ';
 import Contactus from './screens/Contactus';
+import Downpaymentqualification from './screens/Downpaymentqualification';
 
 
 
@@ -40,6 +41,7 @@ function App() {
         {/* ✅ This line was commented out – now it's active */}
         <Route path="/" element={<Home />} />
         <Route path="/Contactus" element={<Contactus />} />
+        <Route path="/Downpaymentqualification" element={<Downpaymentqualification />} />
       </Routes>
       <Footer />
     </Router>

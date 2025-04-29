@@ -12,7 +12,7 @@ const Contactus = () => {
                 <div className='mx-auto max-w-7xl'>
                     <h2 class="lg:text-[42px] md:text-[28px] sm:text-[20px] max-sm:text-[24px]  text-center text-[#001842]">Prefer To Leave A Message?</h2>
                     <p class=" xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px] text-center pt-4 px-3 text-[#001842]">Fill out this form and we'll get back to you within 24 hours.</p>
-                    <div className='grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1 gap-5 items-center'>
+                    <div className='grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1 gap-5 items-center px-4'>
                         <div>
                             <form>
                                 <div className='grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 max-sm:grid-cols-1 px-4 gap-8'>
@@ -35,8 +35,8 @@ const Contactus = () => {
                     </div>
                 </div>
             </section>
-            <section className='contact-box xl:py-18 lg:py-18 md:py-18 sm:py-18 max-sm:py-18'>
-                <div className='mx-auto max-w-7xl'>
+            <section className='contact-box xl:py-18 lg:py-18 md:py-18 sm:py-18 max-sm:py-18 px-4'>
+                <div className='mx-auto max-w-7xl '>
                     <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 max-sm:grid-cols-1 gap-5 items-center px-4'>
                         <div className='h-full'>
                             <div className='border-1 border-[#001842] gap-5 flex items-center xl:px-5 lg:px-5 md:px-5 sm:px-5 xl:py-5 lg:py-5 md:py-5 sm:py-5  h-full '>

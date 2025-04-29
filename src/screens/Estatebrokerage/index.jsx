@@ -1,7 +1,7 @@
 import React from 'react'
 import skyimage from '../../assets/images/estatebrokerage.png';
 import menestate from '../../assets/images/menestate.png';
-import tick from '../../assets/images/tick.svg';
+import tick from '../../assets/images/tick.png';
 import triangle from '../../assets/images/triangle.svg';
 import circle from '../../assets/images/circle.svg';
 import bloomberg from '../../assets/images/bloomberg.svg';
@@ -10,7 +10,7 @@ const Estatebrokerage = () => {
   return (
     <>
        <section
-              className='bg-cover bg-center bg-no-repeat xl:mt-24 lg:mt-24 md:mt-24 max-sm:mt-10 py-16 xl:px-24 lg:px-24 md:px-0 estate-real'
+              className='bg-cover bg-center bg-no-repeat xl:mt-24 lg:mt-24 md:mt-24 max-sm:mt-10 py-16 xl:px-24 lg:px-0 md:px-0 estate-real'
               style={{ backgroundImage: `url(${skyimage})` }}
             >
                 <h2 class="lg:text-[42px] md:text-[28px] sm:text-[20px] max-sm:text-[24px]  text-center text-white">Canada's Fastest Growing<br></br> Real Estate Brokerage</h2>
@@ -20,16 +20,16 @@ const Estatebrokerage = () => {
                 <div class="grid grid-cols-1 md:grid-cols-3 xl:gap-8 lg:gap-10 items-center">
                     <div className='col-span-2'>
                         <div className='flex gap-5 items-center'>
-                            <div><img src={tick} alt="" className='xl:w-[32px] lg:w-[32px] md:w-[32px] max-sm:w-[56px] sm:w-[56px]'/></div>
-                            <div> <p className='text-white xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px]'>We pay our realtors a salary plus a performance bonus when they get you the best price.</p></div>
+                            <div><img src={tick} alt="" className='xl:w-[32px] lg:w-[32px] md:w-[32px]'/></div>
+                            <div> <p className='text-white xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px]'>We pay our realtors a salary plus a performance bonus when they <br></br>get you the best price.</p></div>
                         </div>
                         <div className='flex gap-5 items-center mt-5'>
-                            <div><img src={tick} alt="" className='xl:w-[32px] lg:w-[32px] md:w-[32px] max-sm:w-[48px] sm:w-[48px]'/></div>
-                            <div> <p className='text-white xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px]'>No pushy sales tactics - our agents earn the same whether you buy or wait.</p></div>
+                            <div><img src={tick} alt="" className='xl:w-[32px] lg:w-[32px] md:w-[32px]'/></div>
+                            <div> <p className='text-white xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px]'>No pushy sales tactics - our agents earn the same <br></br>whether you buy or wait.</p></div>
                         </div>
                         <div className='flex gap-5 items-center mt-5    '>
-                            <div><img src={tick} alt="" className='xl:w-[32px] lg:w-[32px] md:w-[32px] max-sm:w-[57px] sm:w-[57px]'/></div>
-                            <div> <p className='text-white xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px]'>We empower our agents with technology so they can focus on your needs, not paperwork.</p></div>
+                            <div><img src={tick} alt="" className='xl:w-[32px] lg:w-[32px] md:w-[32px]'/></div>
+                            <div> <p className='text-white xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[16px]'>We empower our agents with technology so they can focus on <br></br>your needs, not paperwork.</p></div>
                         </div>
                         <div className='mt-10 flex items-center mt-5'>
                             <div className='bg-[#04B1FE] xl:text-[18px] lg:text-[18px] md:text-[18px] max-sm:text-[16px] sm:text-[18px] text-[#001842] w-fit px-8 py-1'>

@@ -2,7 +2,7 @@ import React from 'react';
 import skyimage from '../../assets/images/skyimg.png';
 import leftarrow from '../../assets/images/leftarrow.svg';
 import homeimg from '../../assets/images/homeimg.png';
-
+import { Link } from 'react-router-dom';
 const Banner = () => {
   return (
     <>
@@ -22,10 +22,10 @@ const Banner = () => {
             down payment boost</h1>
        
           <p class=" text-gray-900 mt-5">No strings. No repayments. We put our real estate commissions where they belong — in your pocket.</p>
-          <div className='button-getstarted flex gap-7.5 bg-[#001842] text-white w-fit p-1 py-1.5 px-3.5 mt-6'>
+          <Link to="/Downpaymentqualification"><div className='button-getstarted flex gap-7.5 bg-[#001842] text-white w-fit p-1 py-1.5 px-3.5 mt-6'>
             <button className=''>Get Started</button>
             <img src={leftarrow} alt=''/>
-          </div>
+          </div></Link>
         </div>
         <div className='xl:hidden lg:hidden '>
              <img src={homeimg} alt='houseimg' className='w-full'/>

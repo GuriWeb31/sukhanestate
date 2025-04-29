@@ -32,7 +32,7 @@ const HomeSlider = () => {
       onMouseLeave={() => swiperRef.current?.autoplay?.start()}
     >
       {/* Custom Navigation Buttons */}
-      <div className='relative flex'>
+      {/* <div className='relative flex'>
         <div className="absolute right-12 bottom-0">
           <button ref={prevRef} className="bg-[#001842] rounded-full transition-all duration-300 hover:scale-120 cursor-pointer hover:bg-[#04B1FE]">
             <img src={darrowleft} alt="" />
@@ -43,7 +43,7 @@ const HomeSlider = () => {
             <img src={darrowright} alt="" />
           </button>
         </div>
-      </div>
+      </div> */}
 
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}

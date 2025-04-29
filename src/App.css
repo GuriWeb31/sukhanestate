@@ -139,6 +139,9 @@ table.w-full {
 section.contact-us {
   background: linear-gradient(360deg, #04b1fe2b, transparent);
 }
+section.downpayment-qualification {
+  background: linear-gradient(360deg, #04b1fe12, transparent);
+}
 h5.text-\[\#001842\] {
   font-family: 'Libre Baskerville', serif;
 }
