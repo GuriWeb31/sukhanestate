@@ -145,3 +145,9 @@ section.downpayment-qualification {
 h5.text-\[\#001842\] {
   font-family: 'Libre Baskerville', serif;
 }
+section.career {
+  background: linear-gradient(270deg, #04b1fe17, transparent);
+}
+section.jobs-occuptaion h3 {
+    font-family: 'Libre Baskerville', serif;
+}

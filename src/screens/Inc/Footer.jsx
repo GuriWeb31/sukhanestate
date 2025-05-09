@@ -16,7 +16,7 @@ const Footer = () => {
                 <h4 className='border-b text-[20px] font-bold text-white w-[120px] border-[#04B1FE] pb-1 mb-5'>Company</h4>
                 <Link to='#' className='text-white text-[16px] py-2 block hover:text-[#04b1fe] transition-all duration-200 cursor-pointer'>About us</Link>
                 <Link to='#' className='text-white text-[16px] py-2 block hover:text-[#04b1fe] transition-all duration-200 cursor-pointer'>Our Team</Link>
-                <Link to='#' className='text-white text-[16px] py-2 block hover:text-[#04b1fe] transition-all duration-200 cursor-pointer'>Career</Link>
+                <Link to='Career' className='text-white text-[16px] py-2 block hover:text-[#04b1fe] transition-all duration-200 cursor-pointer'>Career</Link>
                 <Link to='#' className='text-white text-[16px] py-2 block hover:text-[#04b1fe] transition-all duration-200 cursor-pointer'>Media Centre</Link>
                 <Link to='/Contactus' className='text-white text-[16px] py-2 block hover:text-[#04b1fe] transition-all duration-200 cursor-pointer'>Contact Us</Link>
             </div>

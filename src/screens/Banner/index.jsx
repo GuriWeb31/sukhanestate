@@ -21,7 +21,7 @@ const Banner = () => {
             <h1 className=' heading-main xl:text-[42px] lg:text-[42px] md:text-[38px] sm:text-[38px] max-sm:text-[38px]'>Get a $25,000* 
             down payment boost</h1>
        
-          <p class=" text-gray-900 mt-5">No strings. No repayments. We put our real estate commissions where they belong — in your pocket.</p>
+          <p class=" text-gray-900 mt-5">No strings. No repayments.</p>
           <Link to="/Downpaymentqualification"><div className='button-getstarted flex gap-7.5 bg-[#001842] text-white w-fit p-1 py-1.5 px-3.5 mt-6'>
             <button className=''>Get Started</button>
             <img src={leftarrow} alt=''/>

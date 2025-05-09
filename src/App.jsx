@@ -14,6 +14,8 @@ import Buyingthink from './screens/Buyingthink';
 import FAQ from './screens/FAQ';
 import Contactus from './screens/Contactus';
 import Downpaymentqualification from './screens/Downpaymentqualification';
+import Career from './screens/Career';
+
 
 
 
@@ -35,13 +37,15 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sukhanestates">
       <Navbar />
       <Routes>
         {/* ✅ This line was commented out – now it's active */}
         <Route path="/" element={<Home />} />
         <Route path="/Contactus" element={<Contactus />} />
         <Route path="/Downpaymentqualification" element={<Downpaymentqualification />} />
+        <Route path="/Career" element={<Career />} />
+      
       </Routes>
       <Footer />
     </Router>
